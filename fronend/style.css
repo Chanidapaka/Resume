@@ -1,0 +1,116 @@
+* {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+      
+      body {
+          width: 100%;
+          height: 100vh;
+          background-color: deepskyblue;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+      }
+      
+      header {
+          width: 100%;
+      }
+      
+      nav {
+          width: 100%;
+          padding: 1rem 5rem;
+          display: flex;
+          align-items: center;
+      }
+      
+      .logo {
+          width: 150px;
+          height: auto;
+      }
+      
+      .logo img {
+          width: 100%;
+          height: auto;
+          object-fit: contain;
+      }
+
+      ul {
+          list-style: none;
+          display: flex;
+          gap: 3rem;
+      }
+
+      li a {
+          color: black;
+          font-size: 18px;
+          font-weight: 600;
+          text-decoration: none;
+          border-radius: 25px;
+          padding: 10px 15px;
+          transition: 0.6s;
+      }
+
+      .home-content {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          width: 80%;
+          max-width: 1200px;
+      }
+      
+      
+      .home-container {
+          flex: 1;
+          display: flex;
+          justify-content: flex-end;
+          text-align: right;
+          padding-left: 2rem;
+      }
+      
+      .home-container p {
+          font-size: 1.2rem;
+          color: #fff;
+          line-height: 1.5;
+      }
+      
+      .links {
+          display: flex;
+          margin-left: auto; /* ดันเมนูไปทางขวา */
+          justify-content: flex-start; /* เริ่มต้นที่ตรงกลาง */
+          gap: 2rem;
+      }
+      
+      .links ul {
+          display: flex;
+          list-style: none;
+          gap: 2rem;
+      }
+      
+      .links a {
+          text-decoration: none;
+          color: #fff;
+          font-size: 1.2rem;
+      }
+      
+      .links a:hover {
+          color: #f0f0f0;
+      }
+      
+      .home-content {
+          text-align: center;
+          margin-top: 2rem;
+          color: #fff;
+      }
+      
+      .home-container h1 {
+          font-size: 2.5rem;
+      }
+      
+      .home-container p {
+          font-size: 1rem;
+          margin-top: 1rem;
+          line-height: 1.5;
+      }
+      
